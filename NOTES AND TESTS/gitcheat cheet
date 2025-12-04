@@ -1,0 +1,18 @@
+1. git status (The Radar)
+    Check what has changed before doing anything else.
+    Function: Lists files that have been modified, created, or deleted but not yet prepared for upload.
+
+2. git add (The Staging Area)
+    Move your changes from the working directory to the "Staging Area" (like putting a letter in an envelope).
+    Function: Selects which changes will be included in the next snapshot.
+    git add . - Add all
+    git add file_name - adds a specific file
+
+3. git commit (Saving Local History)
+    "Seal the envelope." This saves the version on your computer.
+    Function: Creates a permanent snapshot of the project at this moment.
+    Flag -m: Allows you to type the description message directly.
+
+4. git push (Upload to GitHub)
+    Send your local commits to the cloud.
+    Function: Synchronizes your local history with the remote server.
